@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    120
+  ],
+  "files.associations": {
+    "*.md.j2": "jinja-md"
+  },
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "[markdown]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+  },
+  "[jinja-md]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+  }
+}

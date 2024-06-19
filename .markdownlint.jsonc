@@ -1,0 +1,17 @@
+// This is the configuration file for markdownlint (https://github.com/DavidAnson/markdownlint). This file only contains
+// settings that differ from markdownlint's default values. Refer to the documentation on Github for the full list of
+// rules and further documentation.
+{
+  // Allow additional new-lines in front of level 2 headings.
+  "no-inline-html": {
+    "allowed_elements": [
+      "br"
+    ]
+  },
+  // Allow duplicate headings as long as they are not siblings (e.g. "Example" in different sections).
+  "no-duplicate-heading": {
+    "siblings_only": true
+  },
+  // Do not check for line-length, because we use word-wrap in the editor instead.
+  "line-length": false
+}
