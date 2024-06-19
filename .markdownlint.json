@@ -1,0 +1,11 @@
+{
+  "no-inline-html": {
+    "allowed_elements": [
+      "br"
+    ]
+  },
+  "no-duplicate-heading": {
+    "siblings_only": true
+  },
+  "line-length": false
+}
